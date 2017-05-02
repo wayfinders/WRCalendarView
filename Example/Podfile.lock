@@ -1,0 +1,28 @@
+PODS:
+  - DateToolsSwift (2.0.3)
+  - DropDownMenuKit (0.8.2)
+  - Nimble (5.1.1)
+  - Quick (1.0.0)
+  - WRCalendarView (0.1.0):
+    - DateToolsSwift
+
+DEPENDENCIES:
+  - DropDownMenuKit
+  - Nimble (~> 5.1.1)
+  - Quick (~> 1.0.0)
+  - WRCalendarView (from `../`)
+
+EXTERNAL SOURCES:
+  WRCalendarView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  DateToolsSwift: bf69bf9056d9e53c5c03f06e51f219b9b8b02f9e
+  DropDownMenuKit: 0acbd983fefac6718b1df209198ba6336c3e2772
+  Nimble: 415e3aa3267e7bc2c96b05fa814ddea7bb686a29
+  Quick: 8024e4a47e6cc03a9d5245ef0948264fc6d27cff
+  WRCalendarView: 4cb356948276485372bc5e70ec22aab19a46f006
+
+PODFILE CHECKSUM: 2860e49448111beb10ec55a52d2f95623db7a86d
+
+COCOAPODS: 1.2.0
