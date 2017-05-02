@@ -9,23 +9,18 @@ Calendar Day and Week View for iOS
 
 Following the work from [RVCalendarWeekView](https://github.com/BadChoice/RVCalendarWeekView) and [MSCollectionView](https://github.com/erichoracek/MSCollectionViewCalendarLayout)
 
-https://github.com/wayfinders/WRCalendarView/blob/master/Example/Screenshots/1.gif
-
 ## Features
 
-written in swift 3.1
-
-infinite scroll horizontally left and right
-
-changable between day and week
+- [X] written in swift 3.1
+- [X] infinite scroll horizontally left and right
+- [X] paging horizontally
+- [X] changable between day and week
 
 ![screenshot](https://github.com/wayfinders/WRCalendarView/blob/master/Example/Screenshots/1.gif?raw=true)
 
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
 
 ## Installation
 
