@@ -15,7 +15,6 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		7A0A8DF1F5AD9EFE6B5F0061 /* Pods_WRCalendarView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7787ECA13E75D275AED2CF94 /* Pods_WRCalendarView_Tests.framework */; };
-		9FB96C4C1EB96FF600B3419D /* screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FB96C4B1EB96FF600B3419D /* screenshot.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +44,6 @@
 		74FC4AC7F311CCA84E5C0865 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		7787ECA13E75D275AED2CF94 /* Pods_WRCalendarView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WRCalendarView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84A0F13C404269D703A12DEA /* WRCalendarView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WRCalendarView.podspec; path = ../WRCalendarView.podspec; sourceTree = "<group>"; };
-		9FB96C4B1EB96FF600B3419D /* screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot.png; sourceTree = "<group>"; };
 		AB0DB9759F54D6915FF5DC69 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		ACBFF4A4955094236BAC944E /* Pods-WRCalendarView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WRCalendarView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WRCalendarView_Example/Pods-WRCalendarView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		EA7E4EEBA6AAC91DE01F939D /* Pods-WRCalendarView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WRCalendarView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-WRCalendarView_Example/Pods-WRCalendarView_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -95,7 +93,6 @@
 		607FACD21AFB9204008FA782 /* Example */ = {
 			isa = PBXGroup;
 			children = (
-				9F3A310D1EB84DA5001F5D99 /* Screenshots */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* MainCont.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -161,14 +158,6 @@
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
-		};
-		9F3A310D1EB84DA5001F5D99 /* Screenshots */ = {
-			isa = PBXGroup;
-			children = (
-				9FB96C4B1EB96FF600B3419D /* screenshot.png */,
-			);
-			path = Screenshots;
-			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -263,7 +252,6 @@
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
-				9FB96C4C1EB96FF600B3419D /* screenshot.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,19 +9,11 @@
 Pod::Spec.new do |s|
   s.name             = 'WRCalendarView'
   s.version          = '1.0.0'
-  s.summary          = 'A short description of WRCalendarView.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
-
+  s.summary          = 'Calendar Day and Week View for iOS'
+  s.description      = ''
   s.homepage         = 'https://github.com/wayfinders/WRCalendarView'
+  s.screenshots      = ['https://github.com/wayfinders/WRCalendarView/blob/master/Example/Screenshots/1.png',
+                        '(https://github.com/wayfinders/WRCalendarView/blob/master/Example/Screenshots/1.gif']
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'wayfinder' => 'wayfinder12@gmail.com' }
   s.source           = { :git => 'https://github.com/wayfinders/WRCalendarView.git', :tag => s.version.to_s }
