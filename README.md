@@ -13,19 +13,20 @@ https://github.com/wayfinders/WRCalendarView/blob/master/Example/Screenshots/1.g
 
 ## Features
 
-written in swift 3.1
-
-infinite scroll horizontally left and right
-
-changable between day and week
+* written in swift 3.1
+* infinite scroll horizontally left and right
+* changable between day and week
 
 ![screenshot](https://github.com/wayfinders/WRCalendarView/blob/master/Example/Screenshots/1.gif?raw=true)
+
+## Requirements
+* Xcode 8.x
+* Swift 3.x
+* iOS 8.0
 
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
 
 ## Installation
 
@@ -35,6 +36,12 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod "WRCalendarView"
 ```
+
+## To Do features
+
+* drap and drop event
+* pinchable event 
+
 
 ## Author
 
