@@ -125,7 +125,6 @@ public class WRWeekView: UIView {
     func tapHandler(_ recognizer: UITapGestureRecognizer) {
         let point = recognizer.location(in: self)
         
-    
         var components = Calendar.current.dateComponents([.year, .month, .day, .hour, .minute], from: getDateForX(point.x))
         let (hour, minute) = getDateForY(point.y)
         components.hour = hour

@@ -654,8 +654,7 @@ class WRWeekViewFlowLayout: UICollectionViewFlowLayout {
     
     // MARK: - Scroll
     func scrollCollectionViewToCurrentTime() {
-        let y = min(CGFloat(Date().hour) * hourHeight, collectionView!.contentSize.height - collectionView!.frame.size.height) / 2
-        
+        let y = max(CGFloat(Date().hour) * hourHeight - collectionView!.frame.height / 2 + columnHeaderHeight, 0)
         //didScroll에서 horizontal, vertical scroll이 동시에 되는 것을 막고 있음
         //임시로 처음 current time찾아갈 때만 delegate를 무효화하도록 함
         //더 나은 방법 찾을때까지 임시 유지
