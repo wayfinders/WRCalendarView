@@ -9,11 +9,7 @@
 import Foundation
 
 extension UIColor {
-    convenience init(hex: Int) {
-        self.init(hex: hex, a: 1.0)
-    }
-    
-    convenience init(hex: Int, a: CGFloat) {
+    convenience init(hex: Int, a: CGFloat = 1.0) {
         self.init(r: (hex >> 16) & 0xff, g: (hex >> 8) & 0xff, b: hex & 0xff, a: a)
     }
     
