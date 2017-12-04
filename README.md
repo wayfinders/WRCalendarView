@@ -41,6 +41,7 @@ pod "WRCalendarView"
 * drap and drop event
 * pinchable event 
 * test code
+* support device orientation
 
 ## Author
 
